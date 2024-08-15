@@ -68,4 +68,4 @@ This manual provides detailed instructions on how to use the Power System Fault 
 -------------------
 This manual provides the essential steps to install, set up, and run the Power System Fault Detection project. By following these instructions, you can successfully simulate the WSCC 9-bus test system, collect PMU data, and detect faults within the system.
 
-For more detailed information of the project, visit the [GitHub Repository](https://github.com/username/repository-name).
+For more detailed information of the project, visit the [GitHub Repository](https://github.com/kennethkorah-dev/Capstone/tree/main).

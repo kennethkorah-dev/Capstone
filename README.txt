@@ -58,4 +58,4 @@ The code and documentation for this project can be found on GitHub at the follow
 6. License
 ---------------------------------------------------------------------------------------------------
 
-	This project is licensed under the MIT License. See the `LICENSE` file for details.
+	This project is licensed under a student License. See the `LICENSE` file for details.

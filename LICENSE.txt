@@ -1,0 +1,4 @@
+Student License Agreement
+Copyright (c) 2024 Ashesi University
+
+This software and associated documentation files (the "Software") are licensed exclusively for educational purposes to students, faculty, and staff affiliated with Ashesi University.

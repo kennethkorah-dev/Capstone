@@ -1,0 +1,71 @@
+**Power System Fault Detection Project Manual**
+
+1. Introduction
+------------------
+This manual provides detailed instructions on how to use the Power System Fault Detection project. The project simulates a WSCC 9-bus power system in SIMULINK and uses Phasor Measurement Units (PMUs) to extract data, which is then processed by a MATLAB script to detect fault zones and fault lines.
+
+
+2. System Overview
+-------------------
+	2.1 WSCC 9-Bus Test System
+	The WSCC 9-bus test system is a simplified model of a power grid used for testing and educational purposes. It includes three generators, three loads, and nine buses connected by transmission lines. This model is implemented in SIMULINK.
+
+	2.2 Phasor Measurement Units (PMUs)
+	PMUs are devices that measure the phasor quantities (voltage and current) on an electricity grid. In this project, PMUs are used to collect real-time data on voltage and current from different points in the WSCC 9-bus system.
+
+	2.3 Fault Detection Algorithm
+	The fault detection algorithm processes the data from the PMUs to determine the location of faults within the power system. It identifies the specific fault zones and lines where issues have occurred.
+
+
+3. Installation and Setup
+--------------------------
+	3.1 Prerequisites
+	Before running the project, ensure you have the following software installed on your computer:
+		- MATLAB (version R2023a or later is recommended)
+		- SIMULINK, compatible with your version of MATLAB
+		- Control System Toolbox
+		- Signal Processing Toolbox
+
+	3.2 Downloading the Project
+		i. Access the project repository on GitHub.
+		ii. Download the repository as a ZIP file or clone it to your local machine.
+		iii. Extract the files to a designated folder on your computer.
+
+	3.3 Setting Up the Environment
+		i. Open MATLAB.
+		ii. In MATLAB, navigate to the folder where the project files are located.
+
+	3.4 Running the Simulation**
+		i. Open the SIMULINK model file (`Test_9_bus_system.slx`).
+		ii. Run the simulation to generate PMU data.
+
+	3.5 Executing the Fault Detection**
+		i. Run the MATLAB script (`FDLA.m`) provided in the project folder.
+		ii. The script will process the data from the simulation and display the results, including the detected fault zones and lines.
+
+
+
+4. Using the Project
+-----------------------
+	4.1 Running the Simulation
+	To start the simulation, open the SIMULINK model and click the "Run" button. The simulation will generate data that will be used for fault detection.
+
+	4.2 Fault Detection Process
+	Once the simulation is complete, the MATLAB script will automatically detect any faults within the system. The results will be displayed in the MATLAB Command Window and plotted for visual analysis.
+
+	4.3 Understanding the Results
+	The output of the MATLAB script includes the location of any detected faults, identified by specific fault zones and lines. These results can be used to analyze the performance and reliability of the power system.
+
+
+
+5. Troubleshooting
+---------------------
+	5.1 Common Issues
+	Simulation Does Not Start: Ensure that all required toolboxes are installed and that the SIMULINK model is properly configured.
+
+
+6. Conclusion
+-------------------
+This manual provides the essential steps to install, set up, and run the Power System Fault Detection project. By following these instructions, you can successfully simulate the WSCC 9-bus test system, collect PMU data, and detect faults within the system.
+
+For more detailed information of the project, visit the [GitHub Repository](https://github.com/username/repository-name).

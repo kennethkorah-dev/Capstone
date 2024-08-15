@@ -8,7 +8,7 @@ This project is a power system fault detection algorithm implemented on a WSCC 9
 
 2. Repository
 ------------------------------------------------------------------------------------
-The code and documentation for this project can be found on GitHub at the following link: [GitHub Repository](https://github.com/username/repository-name)
+The code and documentation for this project can be found on GitHub at the following link: [GitHub Repository](https://github.com/kennethkorah-dev/Capstone/tree/main)
 
 3. Installation and Setup
 --------------------------------------------------------------------------------
